@@ -1,34 +1,34 @@
 
 @import "_footer";
+@import "_carousel";
 
-
-body {
-
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.mainContainer{
-
-  width: 100%;
-  height: 800px;
-  // -webkit-filter: blur(3.5px);
-
-
-}
-
-.menu{
-  position: fixed;
-}
-
-.logo{
-  width: 599px;
-}
-
-ul{
-  display:
-}
-.header{
-  background-color: black;
-}
+// body {
+//
+//   background-image: url("background.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+//
+// .mainContainer{
+//
+//   width: 100%;
+//   height: 800px;
+//   // -webkit-filter: blur(3.5px);
+//
+//
+// }
+//
+// .menu{
+//   position: fixed;
+// }
+//
+// .logo{
+//   width: 599px;
+// }
+//
+// ul{
+//   display:
+// }
+// .header{
+//   background-color: black;
+// }
