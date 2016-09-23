@@ -17,7 +17,8 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #707D7f; }
+  background-position: center;
+  background-color: black; }
 
 .mainContainer {
   width: 100%;
@@ -27,13 +28,62 @@ body {
   position: fixed; }
 
 .logo {
-  width: 599px; }
+  width: 200px;
+  position: relative;
+  top: -5px; }
 
 ul {
   display: 1px; }
 
 .header {
   background-color: black; }
+
+li {
+  font-family: 'Didact Gothic', sans-serif;
+  color: white; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px; }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+  .sidenav a {
+    font-size: 18px; } }
+
+#logoBandW {
+  width: 437px; }
 
 .menu {
   position: fixed; }
@@ -155,3 +205,75 @@ content:'\f099';
 a:nth-of-type(3):before {
 content:'\f0e0';
 }
+
+/* Setting things up */
+a {
+  text-decoration: none;
+  color: #fff; }
+
+/* Important stuff */
+nav {
+  position: relative; }
+
+.dropdown-toggle {
+  padding: .5em 1em;
+  background: #777;
+  border-radius: .2em .2em 0 0; }
+
+ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  margin-top: .5em;
+  background: #777;
+  min-width: 12em;
+  padding: 0;
+  border-radius: 0 0 .2em .2em; }
+  ul.dropdown li {
+    list-style-type: none; }
+    ul.dropdown li a {
+      text-decoration: none;
+      padding: .5em 1em;
+      display: block; }
+
+#wedding {
+  background-image: url("weddingbackground.JPG");
+  background-position-x: -484px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 111%;
+  height: 2000px;
+  padding: 0px;
+  margin: -60px; }
+
+.menutext {
+  float: left; }
+
+.navbar-brand {
+  /* float: left; */
+  /* height: 50px; */
+  padding: 15px 15px;
+  font-size: 18px;
+  /* line-height: 20px; */ }
+
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px; }
+
+.navbar-nav {
+  text-align: center; }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; }
