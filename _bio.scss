@@ -4,14 +4,34 @@
   position: fixed;
 }
 
-.bioBody {
-  background-color: black;
-}
-
-
 ul{
   display: 1px;
 }
 .header{
   background-color: black;
+}
+
+.circleContainer{
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+.circle {
+width: 500px;
+height: 500px;
+background-image: url(images/ashleybioPic.jpg);
+background-position: center;
+background-repeat: no-repeat;
+border: 10px #F9FEFF solid;
+}
+.top-buffer {
+  margin-top:80px;
+}
+
+.top-bufferTwo {
+  margin-top:90px;
+}
+
+.bottomDiv {
+  margin-bottom:90px;
 }
