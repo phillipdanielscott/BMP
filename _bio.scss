@@ -22,14 +22,13 @@ height: 500px;
 background-image: url(images/ashleybioPic.jpg);
 background-position: center;
 background-repeat: no-repeat;
-border: 10px #F9FEFF solid;
-}
+border: 6px white solid;  }
 .top-buffer {
   margin-top:80px;
 }
 
 .top-bufferTwo {
-  margin-top:90px;
+  margin-top:80px;
 }
 
 .bottomDiv {
@@ -38,4 +37,21 @@ border: 10px #F9FEFF solid;
 
 #navLogo{
   width:249px;
+}
+.ashleybackground{
+  background-image: url("flower.jpg");
+      width: 100%;
+      height: 1256px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-position-x: 2px;
+}
+.sidenav .imageNav {
+  padding: 0px; }
+
+#bioText{
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+  font-size: 25px;
 }
