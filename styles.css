@@ -17,7 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: white; }
+  background-color: black; }
 
 .mainContainer {
   width: 100%;
@@ -72,7 +72,7 @@ li {
   margin-left: 50px; }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 16px; }
 
 @media screen and (max-height: 450px) {
@@ -117,26 +117,91 @@ ul {
 #navLogo {
   width: 249px; }
 
-.MainContactDiv {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #707D7f; }
+body {
+  background-color: white; }
 
-.mainContainer {
-  width: 100%;
-  height: 800px; }
+.iconContainer {
+  display: inline-block;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); }
 
-.menu {
-  position: fixed; }
+/* Icons */
+.contactIcon {
+  color: #fff;
+  background: black;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  padding-top: 12px;
+  margin: 0 2px;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-font-smoothing: antialiased; }
 
-.logo {
-  width: 599px; }
+.contactIcon:hover {
+  background: #FFF;
+  color: black; }
 
-ul {
-  display: 1px; }
+/* pop-up text */
+.contactIcon span {
+  color: black;
+  position: absolute;
+  font-family: sans-serif;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  z-index: -1;
+  font-size: 14px;
+  border-radius: 2px;
+  background: #D3D3D3;
+  visibility: hidden;
+  opacity: 0;
+  -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
-.header {
-  background-color: black; }
+/* pop-up text arrow */
+.contactIcon span:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #D3D3D3;
+  position: absolute;
+  bottom: -5px;
+  left: 40px; }
+
+/* text pops up when icon is in hover state */
+.contactIcon:hover span {
+  bottom: 100px;
+  visibility: visible;
+  opacity: 1; }
+
+/* font awesome icons */
+.contactIcon:nth-of-type(1):before {
+  content: '\f09a'; }
+
+.contactIcon:nth-of-type(2):before {
+  content: '\f10b'; }
+
+.contactIcon:nth-of-type(3):before {
+  content: '\f0e0'; }
 
 /* Setting things up */
 a {
@@ -148,9 +213,9 @@ nav {
   position: relative; }
 
 .dropdown-toggle {
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   background: #777;
-  border-radius: .2em .2em 0 0; }
+  border-radius: 0.2em 0.2em 0 0; }
 
 ul.dropdown {
   display: none;
@@ -160,12 +225,12 @@ ul.dropdown {
   background: #777;
   min-width: 12em;
   padding: 0;
-  border-radius: 0 0 .2em .2em; }
+  border-radius: 0 0 0.2em 0.2em; }
   ul.dropdown li {
     list-style-type: none; }
     ul.dropdown li a {
       text-decoration: none;
-      padding: .5em 1em;
+      padding: 0.5em 1em;
       display: block; }
 
 #wedding {
