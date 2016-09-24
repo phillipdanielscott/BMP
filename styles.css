@@ -4,8 +4,7 @@
   background-color: blue; }
 
 .carousel {
-  background: #2f4357;
-  margin-top: 20px; }
+  background: #2f4357; }
 
 .carousel .item img {
   margin: 0 auto;
@@ -209,3 +208,6 @@ ul.dropdown {
   .navbar-nav > li {
     float: none;
     display: inline-block; }
+
+.sidenav .imageNav {
+  padding: 0px; }
