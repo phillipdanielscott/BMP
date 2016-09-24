@@ -4,8 +4,7 @@
   background-color: blue; }
 
 .carousel {
-  background: #2f4357;
-  margin-top: 20px; }
+  background: #2f4357; }
 
 .carousel .item img {
   margin: 0 auto;
@@ -73,7 +72,7 @@ li {
   margin-left: 50px; }
 
 #main {
-  transition: margin-left 0.5s;
+  transition: margin-left .5s;
   padding: 16px; }
 
 @media screen and (max-height: 450px) {
@@ -104,19 +103,36 @@ ul {
   background-image: url(images/ashleybioPic.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px #F9FEFF solid; }
+  border: 6px white solid; }
 
 .top-buffer {
   margin-top: 80px; }
 
 .top-bufferTwo {
-  margin-top: 90px; }
+  margin-top: 80px; }
 
 .bottomDiv {
   margin-bottom: 90px; }
 
 #navLogo {
   width: 249px; }
+
+.ashleybackground {
+  background-image: url("flower.jpg");
+  width: 100%;
+  height: 1256px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-x: 2px; }
+
+.sidenav .imageNav {
+  padding: 0px; }
+
+#bioText {
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+  font-size: 25px; }
 
 body {
   background-color: white; }
@@ -146,10 +162,10 @@ body {
   height: 90px;
   padding-top: 12px;
   margin: 0 2px;
-  -o-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
   -webkit-font-smoothing: antialiased; }
 
 .contactIcon:hover {
@@ -214,9 +230,9 @@ nav {
   position: relative; }
 
 .dropdown-toggle {
-  padding: 0.5em 1em;
+  padding: .5em 1em;
   background: #777;
-  border-radius: 0.2em 0.2em 0 0; }
+  border-radius: .2em .2em 0 0; }
 
 ul.dropdown {
   display: none;
@@ -226,12 +242,12 @@ ul.dropdown {
   background: #777;
   min-width: 12em;
   padding: 0;
-  border-radius: 0 0 0.2em 0.2em; }
+  border-radius: 0 0 .2em .2em; }
   ul.dropdown li {
     list-style-type: none; }
     ul.dropdown li a {
       text-decoration: none;
-      padding: 0.5em 1em;
+      padding: .5em 1em;
       display: block; }
 
 #wedding {
@@ -274,3 +290,6 @@ ul.dropdown {
   .navbar-nav > li {
     float: none;
     display: inline-block; }
+
+.imageNav {
+  padding: 0px; }
