@@ -72,7 +72,7 @@ li {
   margin-left: 50px; }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 16px; }
 
 @media screen and (max-height: 450px) {
@@ -162,10 +162,10 @@ body {
   height: 90px;
   padding-top: 12px;
   margin: 0 2px;
-  -o-transition: all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
   -webkit-font-smoothing: antialiased; }
 
 .contactIcon:hover {
@@ -230,9 +230,9 @@ nav {
   position: relative; }
 
 .dropdown-toggle {
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   background: #777;
-  border-radius: .2em .2em 0 0; }
+  border-radius: 0.2em 0.2em 0 0; }
 
 ul.dropdown {
   display: none;
@@ -242,12 +242,12 @@ ul.dropdown {
   background: #777;
   min-width: 12em;
   padding: 0;
-  border-radius: 0 0 .2em .2em; }
+  border-radius: 0 0 0.2em 0.2em; }
   ul.dropdown li {
     list-style-type: none; }
     ul.dropdown li a {
       text-decoration: none;
-      padding: .5em 1em;
+      padding: 0.5em 1em;
       display: block; }
 
 #wedding {
